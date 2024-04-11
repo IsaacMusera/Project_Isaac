@@ -1,53 +1,68 @@
 {
-    "services": [
+  "services": [
       {
-        "name": "Home Security System Installation",
-        "image": "home_security_system.jpg",
-        "description": "Professional installation of a comprehensive home security system including cameras, sensors, and alarms.",
-        "pricing": "Sh. 100,000",
-        "items_for_sale": [
-          {
-            "item": "Indoor Security Camera",
-            "price": "Sh. 20,000 "
-          },
-          {
-            "item": "Outdoor Security Camera",
-            "price": "Sh. 12,000"
-          },
-          {
-            "item": "Motion Sensors (pack of 3)",
-            "price": "Sh. 15,000"
-          },
-          {
-            "item": "Smart Doorbell",
-            "price": "Sh. 5,400"
-          }
-        ]
+          "name": "Home Security System Installation",
+          "image": "https://www.imarcgroup.com/blogs/files/b8311aee-c854-4b96-bf31-b84916cf1908home-security-alarm-systems-installation-melbourne.webp",
+          "description": "Professional installation of a comprehensive home security system including cameras, sensors, and alarms.",
+          "pricing": "Sh. 100,000",
+          "items_for_sale": [
+              {
+                  "item": "Indoor Security Camera",
+                  "image": "https://www.sourcesecurity.com/img/products/400/hikvision-ds-2ce56d1t-a-vfir-dome-camera.jpg",
+                  "description": "High-resolution indoor security camera with night vision and motion detection.",
+                  "price": "Sh. 20,000"
+              },
+              {
+                  "item": "Outdoor Security Camera",
+                  "image": "https://www.security.org/app/uploads/2019/09/Lorex-Camera.png",
+                  "description": "Weatherproof outdoor security camera with HD video quality and motion sensing.",
+                  "price": "Sh. 12,000"
+              },
+              {
+                  "item": "Motion Sensors (pack of 3)",
+                  "image": "https://www.security.org/app/uploads/2021/07/Motion-Detectors-scaled.jpg",
+                  "description": "Set of three motion sensors with adjustable sensitivity for enhanced security.",
+                  "price": "Sh. 15,000"
+              },
+              {
+                  "item": "Smart Doorbell",
+                  "image": "https://m.media-amazon.com/images/I/61Q7MwZvUsL._AC_UF1000,1000_QL80_.jpg",
+                  "description": "Smart doorbell with two-way audio, motion detection, and smartphone integration.",
+                  "price": "Sh. 5,400"
+              }
+          ]
       },
       {
-        "name": "Commercial Security System Installation",
-        "image": "commercial_security_system.jpg",
-        "description": "Customized security solutions for businesses, including access control systems, surveillance cameras, and monitoring services.",
-        "pricing": "Custom Quote",
-        "items_for_sale": [
-          {
-            "item": "Access Control System",
-            "price": "Request Quote"
-          },
-          {
-            "item": "Surveillance Camera System",
-            "price": "Request Quote"
-          },
-          {
-            "item": "Alarm Monitoring Service",
-            "price": "Request Quote"
-          },
-          {
-            "item": "Fire Alarm System",
-            "price": "Request Quote"
-          }
-        ]
+          "name": "Commercial Security System Installation",
+          "image": "https://brunelsecurity.co.uk/wp-content/uploads/2021/02/commercial-security-systems.jpg",
+          "description": "Customized security solutions for businesses, including access control systems, surveillance cameras, and monitoring services.",
+          "pricing": "Custom Quote",
+          "items_for_sale": [
+              {
+                  "item": "Access Control System",
+                  "image": "https://www.securitymagazine.com/ext/resources/secenews/2018/Accesscard_900.jpg?1544555468",
+                  "description": "Advanced access control system with biometric authentication and centralized management.",
+                  "price": "Request Quote"
+              },
+              {
+                  "item": "Surveillance Camera System",
+                  "image": "https://www.nordencommunication.com/public/uploads/media/best-security-camera-systems60631995c7962.jpg",
+                  "description": "Comprehensive surveillance camera system with high-definition cameras and remote viewing capabilities.",
+                  "price": "Request Quote"
+              },
+              {
+                  "item": "Alarm Monitoring Service",
+                  "image": "https://www.safewise.com/app/uploads/2020/04/persons-hand-monitoring-cctv-footage-on-tablet-picture-id1150345192-3.jpg",
+                  "description": "24/7 alarm monitoring service with immediate response to security breaches.",
+                  "price": "Request Quote"
+              },
+              {
+                  "item": "Fire Alarm System",
+                  "image": "https://vividfiresafety.com/wp-content/uploads/2021/03/industrial-fire-alarm-systems.jpg",
+                  "description": "State-of-the-art fire alarm system with smoke and heat detection for early fire prevention.",
+                  "price": "Request Quote"
+              }
+          ]
       }
-    ]
-  }
-  
+  ]
+}
