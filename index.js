@@ -76,3 +76,66 @@ fetch('https://a07a71a56a924cb584355f24439a7f9b.api.mockbin.io/')
     }
   })
   .catch(error => console.error('Error fetching data:', error));
+
+
+
+function validateContactForm() {
+  // Get form elements
+  const nameInput = document.querySelector('.contact-form input[type="text"]');
+  const emailInput = document.querySelector('.contact-form input[type="email"]');
+  const messageInput = document.querySelector('.contact-form textarea');
+
+  // Get error message elements
+  const nameError = document.getElementById('nameError');
+  const emailError = document.getElementById('emailError');
+  const messageError = document.getElementById('messageError');
+
+  // Reset error messages
+  nameError.textContent = '';
+  emailError.textContent = '';
+  messageError.textContent = '';
+
+  let isValid = true;
+
+  // Validate name
+  if (nameInput.value.trim() === '') {
+    nameError.textContent = 'Please enter your name.';
+    isValid = false;
+  }
+
+  // Validate email
+  if (emailInput.value.trim() === '') {
+    emailError.textContent = 'Please enter your email.';
+    isValid = false;
+  } else if (!isValidEmail(emailInput.value.trim())) {
+    emailError.textContent = 'Please enter a valid email address.';
+    isValid = false;
+  }
+
+  // Validate message
+  if (messageInput.value.trim() === '') {
+    messageError.textContent = 'Please enter your message.';
+    isValid = false;
+  }
+
+  return isValid;
+}
+
+// Helper function to validate email format
+function isValidEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
+
+// Event listener for form submission
+const contactForm = document.querySelector('.contact-form');
+contactForm.addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent default form submission
+
+  // Validate form
+  if (validateContactForm()) {
+    console.log('Form is valid. Submitting...');
+  } else {
+    console.log('Form is invalid. Please check the fields.');
+  }
+});

@@ -1,0 +1,37 @@
+body {
+    background-color: #f8f9fa;
+  }
+  .carousel-item img {
+    object-fit: cover;
+    height: 400px; /* Adjust as needed */
+  }
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  }
+  .service-card {
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .service-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .service-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  .contact-section {
+    background-color: #343a40;
+    color: #fff;
+    padding: 50px 0;
+  }
+  .contact-section h2 {
+    margin-bottom: 30px;
+  }
+  .contact-form .form-control {
+    border-radius: 0;
+  }
+  .contact-form .btn-primary {
+    border-radius: 0;
+  }
