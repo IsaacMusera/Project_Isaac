@@ -1,0 +1,53 @@
+{
+    "services": [
+      {
+        "name": "Home Security System Installation",
+        "image": "home_security_system.jpg",
+        "description": "Professional installation of a comprehensive home security system including cameras, sensors, and alarms.",
+        "pricing": "Sh. 100,000",
+        "items_for_sale": [
+          {
+            "item": "Indoor Security Camera",
+            "price": "Sh. 20,000 "
+          },
+          {
+            "item": "Outdoor Security Camera",
+            "price": "Sh. 12,000"
+          },
+          {
+            "item": "Motion Sensors (pack of 3)",
+            "price": "Sh. 15,000"
+          },
+          {
+            "item": "Smart Doorbell",
+            "price": "Sh. 5,400"
+          }
+        ]
+      },
+      {
+        "name": "Commercial Security System Installation",
+        "image": "commercial_security_system.jpg",
+        "description": "Customized security solutions for businesses, including access control systems, surveillance cameras, and monitoring services.",
+        "pricing": "Custom Quote",
+        "items_for_sale": [
+          {
+            "item": "Access Control System",
+            "price": "Request Quote"
+          },
+          {
+            "item": "Surveillance Camera System",
+            "price": "Request Quote"
+          },
+          {
+            "item": "Alarm Monitoring Service",
+            "price": "Request Quote"
+          },
+          {
+            "item": "Fire Alarm System",
+            "price": "Request Quote"
+          }
+        ]
+      }
+    ]
+  }
+  
