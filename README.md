@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
 
 ## Contact
 
-Feel free to contact us for any questions or feedback by calling Tel - +254746633167.
+Feel free to contact us for any questions or feedback by calling Tel - +254746633167 or email me at isaacmusera05@gmail.com.
 
 ## Acknowledgements
 
