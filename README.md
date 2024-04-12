@@ -29,11 +29,11 @@ This project is a demonstration of security services offered, implemented using 
 To run this project locally, follow these steps:
 
 1. Clone this repository.
-2. Open `index.html` in your web browser.
+2. Open `index.html` in your web browser or Run it using VS-Code web server.
 
 ## Contact
 
-Feel free to contact us for any questions or feedback.
+Feel free to contact us for any questions or feedback by calling +254746633167.
 
 ## Acknowledgements
 
