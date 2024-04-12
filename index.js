@@ -1,4 +1,4 @@
-fetch('https://a07a71a56a924cb584355f24439a7f9b.api.mockbin.io/')
+fetch('http://localhost:3000/services')
   .then(response => response.json())
   .then(data => {
     const serviceCards = document.getElementById('service-cards');
